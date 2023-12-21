@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Navbar from './pages/About';
-import Navbar from './pages/Portfolio';
-import Navbar from './pages/Contact';
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
 import './App.css';
 
 const App = () => {
