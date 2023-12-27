@@ -5,6 +5,7 @@ import {
   Routes,
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Header from './pages/Header';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
@@ -13,7 +14,7 @@ const App = () => (
   <BrowserRouter>
     <Navbar />
     <Routes>
-      <Route path="/" element={<About />} />
+      <Route path="/" element={<Header />} />
       <Route path="/about" element={<About />} />
       <Route path="/portfolio" element={<Portfolio />} />
       <Route path="/contact" element={<Contact />} />
