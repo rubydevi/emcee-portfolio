@@ -9,6 +9,7 @@ import Header from './pages/Header';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import './assets/css/style.css';
 
 const App = () => (
   <BrowserRouter>
