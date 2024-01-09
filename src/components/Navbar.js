@@ -5,7 +5,7 @@ const Navbar = () => (
   <header id="header" className="fixed-top">
     <div className="container-fluid d-flex justify-content-between align-items-center">
       <h1 className="logo me-auto me-lg-0">
-        <Link to="/">Anchor Amrita</Link>
+        <Link to="/">Amrita</Link>
       </h1>
       <nav id="navbar" className="navbar order-last order-lg-0">
         <ul>
