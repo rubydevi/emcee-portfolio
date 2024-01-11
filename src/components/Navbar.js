@@ -23,7 +23,6 @@ const Navbar = () => (
       <div className="header-social-links">
         <Link to="/contact" className="twitter"><i className="bi bi-twitter" /></Link>
         <Link to="/contact" className="facebook"><i className="bi bi-facebook" /></Link>
-        <Link to="/contact" className="instagram"><i className="bi bi-instagram" /></Link>
         <Link to="https://www.linkedin.com/in/chongtham-amrita-52871076/" className="linkedin"><i className="bi bi-linkedin" /></Link>
       </div>
     </div>
